@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ColorChooser",
+            "request": "launch",
+            "mainClass": "ColorChooser",
+            "projectName": "PixLab"
+        }
+    ]
+}
