@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PictureExplorer",
+            "request": "launch",
+            "mainClass": "PictureExplorer",
+            "projectName": "PixLab"
+        }
+    ]
+}
