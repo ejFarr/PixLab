@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Picture",
+            "request": "launch",
+            "mainClass": "Picture",
+            "projectName": "PixLab"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PictureTester",
+            "request": "launch",
+            "mainClass": "PictureTester",
+            "projectName": "PixLab"
+        }
+    ]
+}
