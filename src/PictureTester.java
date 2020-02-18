@@ -64,6 +64,14 @@ public class PictureTester
     wall.negate();
     wall.explore();
   }
+
+  public static void testGrayscale() {
+    Picture kitten = new Picture("kitten2.jpg");
+    kitten.explore();
+    kitten.grayScale();
+    kitten.explore();
+  }
+  
   
   /** Main method for testing.  Every class can have a main
     * method in Java */
@@ -76,7 +84,7 @@ public class PictureTester
     //testKeepOnlyBlue();
     //testKeepOnlyRed();
     //testKeepOnlyGreen();
-    testNegate();
+    //testNegate();
     //testGrayscale();
     //testFixUnderwater();
     //testMirrorVertical();
@@ -94,5 +102,7 @@ public class PictureTester
     //testSetRedToHalfValueInTopHalf();
     //testClearBlueOverValue(200);
     //testGetAverageForColumn(0);
+    Picture water = new Picture("water.jpg");
+    water.explore();
   }
 }
