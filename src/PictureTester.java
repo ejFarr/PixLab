@@ -71,6 +71,13 @@ public class PictureTester
     kitten.grayScale();
     kitten.explore();
   }
+
+  public static void testFixUnderwater() {
+    Picture water = new Picture("water.jpg");
+    water.explore();
+    water.fixUnderwater();
+    water.explore();
+  }
   
   
   /** Main method for testing.  Every class can have a main
@@ -86,7 +93,7 @@ public class PictureTester
     //testKeepOnlyGreen();
     //testNegate();
     //testGrayscale();
-    //testFixUnderwater();
+    testFixUnderwater();
     //testMirrorVertical();
     //testMirrorTemple();
     //testMirrorArms();
@@ -102,7 +109,5 @@ public class PictureTester
     //testSetRedToHalfValueInTopHalf();
     //testClearBlueOverValue(200);
     //testGetAverageForColumn(0);
-    Picture water = new Picture("water.jpg");
-    water.explore();
   }
 }
