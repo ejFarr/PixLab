@@ -106,6 +106,12 @@ public class PictureTester
     arms.mirrorArms();
     arms.explore();
   }
+  public static void testMirrorGull() {
+    Picture gull = new Picture("seagull.jpg");
+    gull.explore();
+    gull.mirrorGull();
+    gull.explore();
+  }
   
   /** Main method for testing.  Every class can have a main
     * method in Java */
@@ -139,6 +145,7 @@ public class PictureTester
     //testSetRedToHalfValueInTopHalf();
     //testClearBlueOverValue(200);
     //testGetAverageForColumn(0);
+    
     
   }
 }
