@@ -357,6 +357,7 @@ public class Pixel {
 				.sqrt(redDistance * redDistance + greenDistance * greenDistance + blueDistance * blueDistance);
 		return distance;
 	}
+	
 
 	/**
 	 * Method to compute the color distances between two color objects
